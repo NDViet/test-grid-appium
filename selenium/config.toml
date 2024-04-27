@@ -1,0 +1,13 @@
+[server]
+port = 5556
+
+[node]
+detect-drivers = false
+
+[relay]
+url = "http://localhost:4723"
+status-endpoint = "/status"
+protocol-version = "HTTP/1.1"
+configs = [
+    '1', '{"platformName": "android", "browserName": "chrome", "appium:platformVersion": "14", "appium:deviceName": "emulator-5554", "appium:automationName": "uiautomator2", "appium:browserName": "chrome"}'
+]

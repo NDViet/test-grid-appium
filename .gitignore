@@ -2,3 +2,4 @@
 reports
 poetry.lock
 .idea
+target

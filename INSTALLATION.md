@@ -44,7 +44,7 @@ url = "http://localhost:4723"
 status-endpoint = "/status"
 protocol-version = "HTTP/1.1"
 configs = [
-    '1', '{"platformName": "android", "appium:platformVersion": "14", "appium:deviceName": "emulator-5554", "appium:automationName": "uiautomator2", "appium:browserName": "chrome", "browserName": "chrome"}'
+    '1', '{"platformName": "android", "browserName": "chrome", "appium:platformVersion": "14", "appium:deviceName": "emulator-5554", "appium:automationName": "uiautomator2", "appium:browserName": "chrome"}'
 ]
 ```
 
@@ -54,6 +54,7 @@ java -jar selenium-server-4.21.0-SNAPSHOT.jar node --config config.toml
 ```
 
 ## Start Appium Server
+
 ```
 > appium server
 [Appium] Welcome to Appium v2.5.4
