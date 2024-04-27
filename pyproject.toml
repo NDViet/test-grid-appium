@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-grid-appium"
+version = "0.1.0"
+description = "Sample tests on emulator devices using Appium server through Selenium Grid"
+authors = ["Viet Nguyen Duc <nguyenducviet4496@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+robotframework = "^7.0"
+robotframework-seleniumlibrary = "^6.3.0"
+robotframework-tidy = "^4.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
